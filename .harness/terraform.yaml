@@ -1,0 +1,5 @@
+service:
+  name: terraform
+  identifier: terraform
+  orgIdentifier: default
+  projectIdentifier: default_project
