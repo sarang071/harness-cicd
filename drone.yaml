@@ -37,9 +37,6 @@ pipeline:
                     tags:
                       - Test
                     dockerfile: ./Dockerfile
-        when:
-          pipelineStatus: Success
-          condition: "## This is a comment"
         delegateSelectors:
           - docker-delegate
         strategy:
