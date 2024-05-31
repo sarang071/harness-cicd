@@ -1,0 +1,6 @@
+environment:
+  name: stage
+  identifier: stage
+  orgIdentifier: default
+  projectIdentifier: default_project
+  type: PreProduction
