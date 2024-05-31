@@ -1,4 +1,4 @@
-ipeline:
+pipeline:
   name: deploy-resources
   identifier: testiacm
   projectIdentifier: default_project
