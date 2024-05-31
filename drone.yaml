@@ -17,7 +17,7 @@ pipeline:
           runtime:
             type: Cloud
             spec: {}
-          workspace: <<WORKSPACE ID>>
+          workspace: stage
           execution:
             steps:
               - step:
