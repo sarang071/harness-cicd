@@ -39,11 +39,11 @@ pipeline:
                     dockerfile: ./Dockerfile
         delegateSelectors:
           - docker-delegate
-        strategy:
-          parallelism: 1
-        failureStrategies:
-          - onFailure:
-              errors:
-                - AllErrors
-              action:
-                type: Abort
+        # strategy:
+        #   parallelism: 1
+        # failureStrategies:
+        #   - onFailure:
+        #       errors:
+        #         - AllErrors
+        #       action:
+        #         type: Abort
